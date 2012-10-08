@@ -61,7 +61,6 @@
           <instructions>
             <Bundle-SymbolicName>${bundle.symbolicName}</Bundle-SymbolicName>
             <Bundle-Version>${wrapped.version}</Bundle-Version>
-            <_exportcontents>*</_exportcontents>
             <Export-Package>${bundle.namespace}.*;version="${wrapped.version}"</Export-Package>
             <Private-Package>!*</Private-Package>
             <_include>-osgi.bnd</_include>
