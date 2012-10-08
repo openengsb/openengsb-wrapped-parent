@@ -29,7 +29,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.openengsb.wrapped</groupId>
   <artifactId>openengsb-wrapped-parent</artifactId>
-  <version>7-SNAPSHOT</version>
+  <version>7</version>
 
   <name>OpenEngSB :: OSGi Wrapped Bundles :: Parent</name>
 
