@@ -31,6 +31,7 @@
   <artifactId>openengsb-wrapped-parent</artifactId>
   <version>8-SNAPSHOT</version>
 
+
   <name>OpenEngSB :: OSGi Wrapped Bundles :: Parent</name>
 
   <packaging>pom</packaging>
@@ -60,10 +61,10 @@
         <configuration>
           <instructions>
             <Bundle-SymbolicName>${bundle.symbolicName}</Bundle-SymbolicName>
-            <Bundle-Version>${wrapped.version}</Bundle-Version>
+            <Bundle-Version>${bundle.version}</Bundle-Version>
             <Embed-Dependency>*;scope=compile|runtime;type=!pom;inline=true</Embed-Dependency>
             <Import-Package>*;resolution:=optional</Import-Package>
-            <Export-Package>${bundle.namespace}.*;version="${wrapped.version}"</Export-Package>
+            <Export-Package>${bundle.namespace}.*;version="${package.version}"</Export-Package>
             <Private-Package>!*</Private-Package>
             <_include>-osgi.bnd</_include>
           </instructions>
