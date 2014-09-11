@@ -1,0 +1,8 @@
+openengsb-wrapped-parent-3.0.0 2014-09-11
+-------------------------------------------
+
+This release upgrades the wrapped parent to root 35 which introduced a maven notice plugin configuration.
+
+### Details
+** Library Upgrade
+    * [OPENENGSB-3820] - upgrade wrapped parent to root 35
