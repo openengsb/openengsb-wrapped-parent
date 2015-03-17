@@ -1,3 +1,13 @@
+openengsb-wrapped-parent-3.1.0 2015-03-17
+-------------------------------------------
+
+This release upgrades the wrapped parent to root 35 which introduced above other a karaf upgrade to 3.0.2.
+
+### Details
+** Library Upgrade
+    * [OPENENGSB-3868] - Upgrade openengsb-wrapped-parent to openengsb-root 37
+
+
 openengsb-wrapped-parent-3.0.0 2014-09-11
 -------------------------------------------
 
