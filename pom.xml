@@ -29,7 +29,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.openengsb.wrapped</groupId>
   <artifactId>openengsb-wrapped-parent</artifactId>
-  <version>3.1.0</version>
+  <version>3.1.1-SNAPSHOT</version>
 
 
   <name>OpenEngSB :: OSGi Wrapped Bundles :: Parent</name>
@@ -50,7 +50,7 @@
     <connection>scm:git:git://github.com/openengsb/openengsb-wrapped-parent.git</connection>
     <developerConnection>scm:git:git@github.com:openengsb/openengsb-wrapped-parent.git</developerConnection>
     <url>http://github.com/openengsb/openengsb-wrapped-parent</url>
-    <tag>v3.1.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <build>
